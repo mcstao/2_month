@@ -7,7 +7,6 @@ class Company:
 
 class Person(Company):
 
-    _salary = 10000
 
     def __init__(self , first_name , last_name , salary):
         self.first_name = first_name
